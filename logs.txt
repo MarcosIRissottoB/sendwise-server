@@ -1,0 +1,36 @@
+
+---
+2026-01-11T23:16:17.243Z
+Hola, necesitamos hablar urgente mañana.
+{
+  "status": "Warning",
+  "reason": "El mensaje es vago y no especifica el tema de la conversación.",
+  "suggestion": "Hola, necesitamos hablar urgentemente mañana sobre un tema importante. ¿A qué hora te viene bien?"
+}
+
+---
+2026-01-11T23:18:11.308Z
+Hola, necesitamos hablar urgente mañana.
+{
+  "status": "Warning",
+  "reason": "El mensaje es demasiado breve y carece de detalles importantes.",
+  "suggestion": "Hola, necesitamos hablar urgentemente mañana. ¿A qué hora te viene bien?"
+}
+
+---
+2026-01-11T23:25:35.403Z
+Hola, necesitamos hablar urgente mañana. 
+{
+  "status": "Warning",
+  "reason": "El mensaje es demasiado breve y carece de detalles sobre la urgencia.",
+  "suggestion": "Hola, necesitamos hablar con urgencia mañana. ¿A qué hora te viene bien?"
+}
+
+---
+2026-01-11T23:27:44.942Z
+Hola, necesito que hablemos urgente.
+{
+  "status": "Warning",
+  "reason": "El mensaje es demasiado directo y puede sonar abrupto.",
+  "suggestion": "Hola, ¿podríamos hablar sobre un tema urgente cuando tengas un momento?"
+}
