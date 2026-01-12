@@ -21,6 +21,10 @@ const AnalyzeSchema = z.object({
   text: z.string().min(5),
 });
 
+app.get("/", (req, res) => {
+  res.send("SendWise server alive");
+});
+
 app.post("/analyze", async (req, res) => {
   const ip = req.socket.remoteAddress;
   const count = ipUsage.get(ip) || 0;
