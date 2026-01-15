@@ -15,7 +15,7 @@ const openai = new OpenAI({
 });
 
 const ipUsage = new Map();
-const MAX_PER_IP = 5;
+const MAX_PER_IP = 10;
 
 const AnalyzeSchema = z.object({
   text: z.string().min(5),
